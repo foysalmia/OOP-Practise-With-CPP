@@ -1,13 +1,13 @@
 <h1>Task to practise OOP with C++ </h1>
 <ol>
-<li>Make an array of Student class of size N. Template is given below:
-Class Student
-{
-    string name;
-    char section;
-    int roll;
-    int english_marks;
-    string password;
+<li>Make an array of Student class of size N. Template is given below:<br>
+Class Student<br>
+{<br>
+    string name;<br>
+    char section;<br>
+    int roll;<br>
+    int english_marks;<br>
+    string password;<br>
 }
 </li>
 
