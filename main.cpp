@@ -32,5 +32,13 @@ int main()
 
     Student students[N];
 
+    for(int i=0;i<N;i++){
+        int mark;
+        string pass;
+        cin>>students[i].name>>students[i].section>>students[i].roll>>mark>>pass;
+        students[i].set_marks(mark);
+        students[i].set_password(pass);
+    }
+
     return 0;
 }
